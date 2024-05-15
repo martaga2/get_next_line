@@ -6,7 +6,7 @@
 /*   By: martaga2 <martaga2@student.42malaga.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 10:55:34 by martaga2          #+#    #+#             */
-/*   Updated: 2024/05/13 12:23:26 by martaga2         ###   ########.fr       */
+/*   Updated: 2024/05/15 10:08:22 by martaga2         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -112,9 +112,4 @@ char	*get_next_line(int fd)
 	if (final[fd])
 		final[fd] = ft_search(final[fd]);
 	return (new_text);
-}
-
-int	main(void)
-{
-	return 0;
 }
